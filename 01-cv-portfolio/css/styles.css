@@ -164,7 +164,7 @@ header .cvCard {border-radius: 34px;
 /* ---------------------------------
 5. PORFOLIO SECTION
 --------------------------------- */
-
+/* 
 .portfolio-section{ padding-bottom: 0; }
 
 .portfolio-section .portfolioFilter{ margin-top: 60px; color: #666; }
@@ -182,6 +182,21 @@ header .cvCard {border-radius: 34px;
 .portfolio-section .p-item.p-item-2 .img:first-child{ float: left; width: 50%; padding-right: 7.5px; }
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
+ */
+ 
+.portfolio-section{ position: relative; }
+
+.portfolio-section .portfolioFilter{ margin-bottom: 60px; color: #666; }
+
+.portfolio-section .portfolioFilter a{ margin: 10px 10px 0 0; }
+
+.portfolio-section .portfolioFilter a.current{ color: #FFA804; }
+
+.portfolio-section .portfolioContainer{ margin-left: -15px; margin-right: -15px; }
+
+.portfolio-section .p-item{ width: 25%; padding: 0 7.5px 0px; margin-top: 15px; }
+
+.portfolio-section .p-item a{ display: inline-block; position: relative; }
 
 
 /* ---------------------------------
