@@ -128,14 +128,14 @@
 	<section class="portfolio-section section " id="portfolio">
 		<div class="container">
 			<div class="row">
-				<div class="col-sm-12">
+				<div class="col-sm-4">
 					<div class="heading">
 						<h3><b>Portfolio</b></h3>
 						<h6 class="font-lite-black"><b>MY WORK</b></h6>
 					</div>
 				</div><!-- col-sm-12 -->
 				
-				<div class="col-sm-12">
+				<div class="col-sm-8">
 					<div class="portfolioFilter clearfix margin-b-80">
 						<a href="#" data-filter="*" class="current"><b>ALL</b></a>
 						<a href="#" data-filter=".web-design"><b>WEB DESIGN</b></a>
@@ -150,112 +150,129 @@
 				<div class="card-deck">
 					
 					<!-- Project card  -->
-					<div class="card border-warning web-design text-center rounded ">
+					<div class="card border-warning web-design text-center rounded mb-3 pb-2">
 						<div class="card-header">
 							My-Buy
+							<small>  (fullstack)</small>
 						</div>
 						<div class="p-2">
-							<a href="images/myBuy.png" data-fluidbox >
-								<img  class="card-img-top" src="images/myBuy.png" alt=""></a>
+							<!-- <a href="images/myBuy.png" data-fluidbox > -->
+								<img  class="card-img-top" style="cursor: pointer" src="images/myBuy.png" alt="" onclick="window.open(this.src)">
+							<!-- </a> -->
 						</div>
 						<div class="card-body">
 						  <p style="font-size: .75em" class="card-text p-2">Website for uploading recommendations for products ordered from the Internet. The details are retrieved from Aliexpress Api
-						  <button class="btn btn-sm btn-success mb-1">See more...</button> </p>
 						</div>
 						<div class="">
 							<span class="badge badge-warning">Aliexpress Api</span>
 						 	<span class="badge badge-warning">node.js</span>
-						 	<span class="badge badge-warning">Authorization </span>
+						 	<span class="badge badge-warning">passport-Authorization </span>
+						 	<span class="badge badge-warning">MongoDB </span>
+						</div>
+						<hr>
+						<div class="cardFooter">
+							<button hidden target="_blank" class="disabled btn badge badge-success mb-2" >
+								Play <i class="ion-play"></i>
+							</button>	
+							<a class="btn badge badge-success mb-2 text-muted" style="cursor: help" data-toggle="tooltip" data-placement="top" title="Still working on it ;)">
+							Play <i class="ion-play"></i></a>		  
+							<button class="seeMoreBtn btn btn-sm mb-1">See more...</button> </p>
 						</div>
 					</div><!-- Project card  -->
 
 					<!-- Project card 2 -->
-					<div class="card border-warning web-design text-center rounded ">
+					<div class="card border-warning web-design text-center rounded mb-3">
 						<div class="card-header">
 							Like-Patatap
 						</div>
 						<div class="p-2">
-							<a href="images/patatp.gif" data-fluidbox >
-								<img  class="card-img-top" src="images/patatp.gif" alt=""></a>
+							<!-- <a href="images/patatp.gif" data-fluidbox > -->
+								<img  class="card-img-top" style="cursor: pointer" src="images/patatp.gif" alt="" onclick="window.open(this.src)">
+							<!-- </a> -->
 						</div>
 						<div class="card-body">
 						  <p style="font-size: .75em" class="card-text p-2">
 							Displays animations and sounds while tapping the keyboard. For each key on the keyboard there will be animation in a different color and with a different sound.
-							<a href="https://efratvanso.github.io/like-patatap.github.io/">Demo</a>
-						  <button class="btn btn-sm btn-success mb-1">See more...</button> </p>
 						</div>
 						<div class="">
 							<span class="badge badge-warning">paperscript</span>
 						 	<span class="badge badge-warning">howler.js</span>
 						 	<span class="badge badge-warning">Jquery </span>
 						</div>
-					</div><!-- Project card  -->
+						<hr>
+						<div class="cardFooter">
+							<a target="_blank" class="btn badge badge-success mb-2" href="https://efratvanso.github.io/like-patatap.github.io/">
+								Play <i class="ion-play"></i>
+							</a>			  
+							<button class="seeMoreBtn btn btn-sm mb-1">See more...</button> </p>
+						</div>
+					</div><!-- Project card  2-->
 
-					  <div class="card">
-						<img class="card-img-top" src="images/portfolio-14-400x400.jpg" alt="Card image cap">
+					<!-- Project card 3 -->
+					<div class="card border-warning web-design text-center rounded mb-3">
+						<div class="card-header">
+							Color Game
+						</div>
+						<div class="p-2">
+							<!-- <a href="images/patatp.gif" data-fluidbox > -->
+								<img  class="card-img-top" style="cursor: pointer" src="images/colorGame.png" alt="" onclick="window.open(this.src)">
+							<!-- </a> -->
+						</div>
 						<div class="card-body">
-						  <h5 class="card-title">Card title</h5>
-						  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+						  <p style="font-size: .75em" class="card-text p-2">
+							The title shows a color in RGB format. And 6 squares of different colors.The user need to make an intelligent guess 							
 						</div>
-						<div class="card-footer">
-						  <small class="text-muted">Last updated 3 mins ago</small>
+						<div class="">
+							<span class="badge badge-warning">javaScript</span>
+						 	<span class="badge badge-warning">html</span>
+						 	<span class="badge badge-warning">CSS </span>
+						 	<span class="badge badge-warning">Jquery </span>
 						</div>
-					  </div>
-					  <div class="card">
-					  <img class="card-img-top" src="images/portfolio-15-400x400.jpg" alt="Card image cap">
-					  <div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">t below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-					  </div>
-					  <div class="card-footer">
-						<small class="text-muted">Last updated 3 mins ago</small>
-					  </div>
-					</div>
+						<hr>
+						<div class="cardFooter">
+							<a target="_blank" class="btn badge badge-success mb-2" href="https://efratvanso.github.io/like-patatap.github.io/">
+								Play <i class="ion-play"></i>
+							</a>			  
+							<button class="seeMoreBtn btn btn-sm mb-1">See more...</button> </p>
+						</div>
+					</div><!-- Project card  3--> 
+
+					<!-- Project card 4 -->
+					<div class="card border-warning web-design text-center rounded mb-3">
+						<div class="card-header">
+							To Do List
+						</div>
+						<div class="p-2">
+							<!-- <a href="images/patatp.gif" data-fluidbox > -->
+								<img  class="card-img-top" style="cursor: pointer" src="images/toDoList.gif" alt="" onclick="window.open(this.src)">
+							<!-- </a> -->
+						</div>
+						<div class="card-body">
+						  <p style="font-size: .75em" class="card-text p-2">
+							Adding and deleting tasks. Reactive interface
+						</div>
+						<div class="">
+							<span class="badge badge-warning">javaScript</span>
+						 	<span class="badge badge-warning">html</span>
+						 	<span class="badge badge-warning">CSS </span>
+						 	<span class="badge badge-warning">Jquery </span>
+						</div>
+						<hr>
+						<div class="cardFooter">
+							<a target="_blank" class="btn badge badge-success mb-2" href="https://efratvanso.github.io/like-patatap.github.io/">
+								Play <i class="ion-play"></i>
+							</a>			  
+							<button class="seeMoreBtn btn btn-sm mb-1">See more...</button> </p>
+						</div>
+					</div><!-- Project card  4--> 
+
 				  </div>
+				
+				
 				<!-- <div class="p-item web-design">
 					<a href="images/portfolio-13-400x400.jpg" data-fluidbox>
 						<img src="images/portfolio-13-400x400.jpg" alt=""></a>
 				</div> -->
-				
-				<div class="p-item web-design">
-					<a href="images/portfolio-13-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-13-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
-				
-				<div class="p-item branding graphic-design">
-					<a href="images/portfolio-14-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-14-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
-				
-				<div class="p-item web-design">
-					<a href="images/portfolio-15-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-15-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
-				
-				<div class="p-item graphic-design">
-					<a class="img" href="images/portfolio-16-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-16-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
-				
-				<div class="p-item branding graphic-design">
-					<a href="images/portfolio-17-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-17-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
-				
-				<div class="p-item graphic-design web-design">
-					<a href="images/portfolio-18-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-18-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
-				
-				<div class="p-item  graphic-design branding">
-					<a href="images/portfolio-19-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-19-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
-					
-				<div class="p-item web-design branding">
-					<a href="images/portfolio-20-400x400.jpg" data-fluidbox>
-						<img src="images/portfolio-20-400x400.jpg" alt=""></a>
-				</div><!-- p-item -->
 			
 			</div><!-- portfolioContainer -->
 		</div><!-- container -->

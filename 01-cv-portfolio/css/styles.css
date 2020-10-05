@@ -183,7 +183,8 @@ header .cvCard {border-radius: 34px;
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
  */
- 
+ .portfolio-section.section{ padding: 100px 0 0px; }
+
 .portfolio-section{ position: relative; }
 
 .portfolio-section .portfolioFilter{ margin-bottom: 60px; color: #666; }
@@ -202,14 +203,19 @@ header .cvCard {border-radius: 34px;
 
 .portfolio-section img{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
 
-/* .portfolio-section .card:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px); */
-}
+.portfolio-section .card:hover{ -webkit-transform: translateY(-4px); transform: translateY(-4px);}
 
+.portfolio-section .seeMoreBtn {margin-top: 3px; color: #fff; background-color: #28023D; border-color: grey;  border-style: double;}
+
+.portfolio-section .cardFooter {background: #f7f7f9;
+    position: absolute;
+    bottom: -1px;
+    width: 100%;
+    border-top: rgba(0, 0, 0, 0.125) solid 1px;}
 
 /* ---------------------------------
 6. ABOUT SECTION
 --------------------------------- */
-
 .radial-progress{ position: relative; max-width: 200px; margin: 0 auto; }
 
 .radial-progress .progressbar-text{ font-size: 2.2em; font-weight: 500; 
