@@ -81,7 +81,8 @@ b.max-bold{ font-weight: 700; }
 /* ---------------------------------
 2. COMMONS FOR PAGE DESIGN
 --------------------------------- */
-
+.navbar {padding: 2px;	margin: 1px;position: absolute;	z-index: 5;	color: white;}
+.navbar-brand {font-size: 2vw;}
 .section{ padding: 100px 0 50px; }
 
 .section .heading{ margin-bottom: 60px; }
@@ -135,7 +136,7 @@ header .cvCard {border-radius: 34px;
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover; 
-	z-index: 1;background-image: url(../../images/slider-1-1920x1080.jpg); }
+	z-index: 1;background-image: url(../../images/laptop.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
 	right: 0; background: rgba(0,0,0, .2); }
@@ -183,7 +184,7 @@ header .cvCard {border-radius: 34px;
 
 .portfolio-section .p-item.p-item-2 .img:last-child{ float: right; width: 50%; padding-left: 7.5px; }
  */
- .portfolio-section.section{ padding: 100px 0 0px; }
+ .portfolio-section.section{ padding: 50px 0 0px; }
 
 .portfolio-section{ position: relative; }
 
@@ -207,11 +208,7 @@ header .cvCard {border-radius: 34px;
 
 .portfolio-section .seeMoreBtn {margin-top: 3px; color: #fff; background-color: #28023D; border-color: grey;  border-style: double;}
 
-.portfolio-section .cardFooter {background: #f7f7f9;
-    position: absolute;
-    bottom: -1px;
-    width: 100%;
-    border-top: rgba(0, 0, 0, 0.125) solid 1px;}
+.portfolio-section .cardFooter {background: #f7f7f9;   position: absolute; bottom: -1px; width: 100%; border-top: rgba(0, 0, 0, 0.125) solid 1px; border-bottom: rgba(0, 0, 0, 0.125) solid 1px; border-radius: 3px;}
 
 /* ---------------------------------
 6. ABOUT SECTION
@@ -225,8 +222,17 @@ header .cvCard {border-radius: 34px;
 
 .radial-progress .progress-title{ position: absolute; top: 50%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+/* ---- */
+.radial-progress-s{ position: relative; max-width: 200px; margin: 0 auto; }
 
-	
+.radial-progress-s .progressbar-text{ font-size: x-large; font-weight: 500; 
+	padding-bottom: 25px!important; color: #333!important; }
+
+.radial-progress-s .progressbar-text:after{ content:'%'; }
+
+.radial-progress-s .progress-title{font-size:  11px; position: absolute; top: 40%; left: 50%; width: 100%;
+	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+
 
 /* ---------------------------------
 7. EXPERIENCE SECTION
@@ -264,7 +270,7 @@ header .cvCard {border-radius: 34px;
 	background-image: url(../../images/slider-2-1920x600.jpg); color: #fff; }
 
 .counter-section:after{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0; 
-	right: 0; background: rgba(0,0,0, .2); }
+	right: 0; background: rgba(145, 110, 110, 0.2); }
 
 .counter{ position: relative; }
 	
@@ -292,5 +298,5 @@ header .cvCard {border-radius: 34px;
 10. FOOTER
 --------------------------------- */
 
-.copyright{ text-align: center; padding: 30px 0; background: #28023D; }
+.copyright{color: black!important; text-align: center; padding: 0px 0; background: #28023D; }
 

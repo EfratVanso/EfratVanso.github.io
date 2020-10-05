@@ -85,7 +85,7 @@ function panelAccordian(){
 
 function enableRadialProgress(){
 	
-	$(".radial-progress").each(function(){
+	$(".radial-progress, .radial-progress-s").each(function(){
 		var $this = $(this),
 			progPercent = $this.data('prog-percent');
 			
