@@ -200,6 +200,8 @@ header .cvCard {border-radius: 34px;
 
 .portfolio-section .p-item a{ display: inline-block; position: relative; }
 
+.portfolio-section .card {border: solid 2px gainsboro;}
+
 .portfolio-section .card-header{color:#FFA804;}
 
 .portfolio-section img{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)}
