@@ -83,6 +83,14 @@ b.max-bold{ font-weight: 700; }
 --------------------------------- */
 .navbar {padding: 2px;	margin: 1px;position: absolute;	z-index: 5;	color: white;}
 .navbar-brand {font-size: 2vw;}
+
+/* @media(min-width:768px){ */
+	.navbar.scrolled{
+		background:#6699ff;
+		/* transition: background 500ms; */
+	}
+/* } */
+
 .section{ padding: 100px 0 50px; }
 
 .section .heading{ margin-bottom: 60px; }
@@ -234,7 +242,12 @@ header .cvCard {border-radius: 34px;
 
 .radial-progress-s .progress-title{font-size:  11px; position: absolute; top: 40%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
-
+.smallViewBtn{
+	color: black;
+    border-width: 4px;
+    border-radius: 50%;
+    border-color: #FFA600;
+}
 
 /* ---------------------------------
 7. EXPERIENCE SECTION
