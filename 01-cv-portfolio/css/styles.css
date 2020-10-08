@@ -242,11 +242,9 @@ header .cvCard {border-radius: 34px;
 
 .radial-progress-s .progress-title{font-size:  11px; position: absolute; top: 40%; left: 50%; width: 100%;
 	letter-spacing: 0; text-align: center; transform: translate(-50%, 15px); color: #777; }
+
 .smallViewBtn{
-	color: black;
-    border-width: 4px;
-    border-radius: 50%;
-    border-color: #FFA600;
+	color: black; border-width: 4px; border-radius: 50%; border-color: #FFA600;
 }
 
 /* ---------------------------------
