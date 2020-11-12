@@ -14,14 +14,14 @@ The site is responsive and user-friendly.
    * Javascript
    * HTML
    * CSS
-   *jQuery
-   *Bootstrap
+   * jQuery
+   * Bootstrap
    
 ## Getting Started
 
 ### Installing and Executing
 
-*Clone this repo to your local machine using https://github.com/EfratVanso/EfratVanso.github.io.git
+Clone this repo to your local machine using https://github.com/EfratVanso/EfratVanso.github.io.git
 open index.html in your browser
 
 ## Authors
@@ -31,10 +31,10 @@ My Site: https://efratvanso.github.io/
 
 ## Screenshots
 
-<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso.github.io/blob/master/images/screenshot1.png" width="700">
+<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso/EfratVanso.github.io/master/images/screenshot1.png" width="700">
 <br/><br/>
 
-<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso.github.io/blob/master/images/screenshot2.png" width="700">
+<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso/EfratVanso.github.io/master/images/screenshot2.png" width="700">
 <br/><br/>
 
-<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso.github.io/blob/master/images/screenshot3.png" width="700">
+<img style="-webkit-user-select: none;margin: auto;width: 700px;" src="https://raw.githubusercontent.com/EfratVanso/EfratVanso.github.io/master/images/screenshot3.png" width="700">
